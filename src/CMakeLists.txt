@@ -3,9 +3,9 @@
 # Cria o executável com os arquivos principais
 add_executable(picow_freertos
     main.c
-    tasks/joystick_task.c
-    tasks/button_task.c
-    tasks/process_task.c
+    tasks/tarefa_joystick.c
+    tasks/tarefa_botao.c
+    tasks/tarefa_processamento.c
 )
 
 # Corrige a saída do executável para a raiz do build/
